@@ -5,6 +5,8 @@ import React from 'react'
 // }
 
 const Greet = (props) => {
+//const Greet = ({name, heroName }) => {
+// const {name, heroName} = props
     console.log(props)
     return (
         <div><h1>Hello {props.name} a.k.a {props.heroName}</h1>
